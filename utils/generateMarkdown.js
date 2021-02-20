@@ -22,6 +22,7 @@ function renderLicenseSection(license) {
 // function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
+  
   ${renderLicenseBadge(data.license)}
 
 
@@ -34,6 +35,7 @@ ${data.description}
 * [Installation](#installation)
 
 * [Usage](#usage)
+
 ${renderLicenseLink(data.license)}
 
 * [Contributing](#contributing)
