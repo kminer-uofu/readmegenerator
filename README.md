@@ -1,13 +1,19 @@
-# Project 3
+# Project 1
+  ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+
+
 ## Description
 
-Athlete look up page and charities
+Beer finder
 
 ## Table of Contents
 
 * [Installation](#installation)
 
 * [Usage](#usage)
+
+* [License](#license)
+
 
 * [Contributing](#contributing)
 
@@ -25,11 +31,14 @@ npm i
 
 ## Usage
 
-github.kminer-uofu
+upload often
 
+## License
+    
+    This project is licensed under the MIT license.
 ## Contributing
 
-make sure you update often
+use branches
 
 ## Tests
 

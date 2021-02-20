@@ -11,9 +11,20 @@ function renderLicenseLink(license) {
   }
   return '';
 }
+function renderLicenseSection(license) {
+  if (license !== 'None') {
+    return `## License
+    
+    This project is licensed under the ${license} license.`;
+  }
+  return '';
+}
 // function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
+  ${renderLicenseBadge(data.license)}
+
+
 ## Description
 
 ${data.description}
@@ -23,6 +34,7 @@ ${data.description}
 * [Installation](#installation)
 
 * [Usage](#usage)
+${renderLicenseLink(data.license)}
 
 * [Contributing](#contributing)
 
@@ -42,6 +54,7 @@ ${data.installation}
 
 ${data.usage}
 
+${renderLicenseSection(data.license)}
 ## Contributing
 
 ${data.contributing}
