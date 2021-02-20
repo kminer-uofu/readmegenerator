@@ -1,5 +1,5 @@
 # Project 1
-  ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+  ![GitHub license](https://img.shields.io/badge/license-APACHE 2.0-blue.svg)
 
 
 ## Description
@@ -35,10 +35,12 @@ upload often
 
 ## License
     
-    This project is licensed under the MIT license.
+    This project is licensed under the APACHE 2.0 license.
+
+
 ## Contributing
 
-use branches
+use branches often
 
 ## Tests
 

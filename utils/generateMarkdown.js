@@ -55,6 +55,8 @@ ${data.installation}
 ${data.usage}
 
 ${renderLicenseSection(data.license)}
+
+
 ## Contributing
 
 ${data.contributing}
